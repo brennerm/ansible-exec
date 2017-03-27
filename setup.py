@@ -1,12 +1,9 @@
 from distutils.core import setup
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
-
 setup(
     name='ansible-runner',
     scripts=['ansible-runner'],
-    install_requires=required,
+    install_requires=['enum34', 'pyaml'],
     version='1.2',
     description='Runs your playbooks, roles and tasks',
     author='Max Brenner',

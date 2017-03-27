@@ -6,7 +6,7 @@ Runs your playbooks, roles and tasks
 ```
 git clone https://github.com/brennerm/ansible-runner
 cd ansible-runner
-python3 setup.py install
+python setup.py install
 ```
 
 - With pip
