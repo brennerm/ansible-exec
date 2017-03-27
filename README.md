@@ -1,6 +1,20 @@
 # ansible-runner
 Runs your playbooks, roles and tasks
 
+## Installation
+- From source code
+```
+git clone https://github.com/brennerm/ansible-runner
+cd ansible-runner
+python3 setup.py install
+```
+
+- With pip
+```
+pip install ansible-runner
+```
+
+## Usage
 ### Playbook
 ```
 # playbook.yml
