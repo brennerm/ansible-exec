@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
 import argparse
-import enum
 import distutils.spawn
 import logging
 import os
 import sys
 import tempfile
 
+import enum
 import yaml
 
 logging.basicConfig()
