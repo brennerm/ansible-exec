@@ -7,11 +7,11 @@ setup(
     name='ansible-runner',
     scripts=['ansible-runner'],
     install_requires=required,
-    version='1.1',
+    version='1.2',
     description='Runs your playbooks, roles and tasks',
     author='Max Brenner',
     author_email='xamrennerb@gmail.com',
     url='https://github.com/brennerm/ansible-runner',
-    download_url='https://github.com/brennerm/ansible-runner/archive/1.1.tar.gz',
+    download_url='https://github.com/brennerm/ansible-runner/archive/1.2.tar.gz',
     keywords=['ansible', 'playbook', 'role', 'task']
 )
