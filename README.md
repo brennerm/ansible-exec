@@ -1,4 +1,4 @@
-# ansible-runner
+# ansible-runner [![Build Status](https://travis-ci.org/brennerm/ansible-runner.svg?branch=master)](https://travis-ci.org/brennerm/ansible-runner)
 Runs your playbooks, roles and tasks
 
 ## Installation
