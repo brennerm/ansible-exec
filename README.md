@@ -1,17 +1,17 @@
-# ansible-runner [![Build Status](https://travis-ci.org/brennerm/ansible-runner.svg?branch=master)](https://travis-ci.org/brennerm/ansible-runner)
+# ansible-exec [![Build Status](https://travis-ci.org/brennerm/ansible-exec.svg?branch=master)](https://travis-ci.org/brennerm/ansible-exec)
 Runs your playbooks, roles and tasks
 
 ## Installation
 - From source code
 ```
-git clone https://github.com/brennerm/ansible-runner
-cd ansible-runner
+git clone https://github.com/brennerm/ansible-exec
+cd ansible-exec
 python setup.py install
 ```
 
 - With pip
 ```
-pip install ansible-runner
+pip install ansible-exec
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ pip install ansible-runner
         name: apache2
         state: present
         
-$ ansible-runner webserver.example.com playbook.yml -- -u root -k
+$ ansible-exec webserver.example.com playbook.yml -- -u root -k
 ```
 
 ### Role
@@ -45,7 +45,7 @@ $ ansible-runner webserver.example.com playbook.yml -- -u root -k
     name: apache2
     state: present
         
-$ ansible-runner webserver.example.com apache2_install/ -- -u root -k
+$ ansible-exec webserver.example.com apache2_install/ -- -u root -k
 ```
 
 ### Tasks
@@ -57,5 +57,5 @@ $ ansible-runner webserver.example.com apache2_install/ -- -u root -k
     name: apache2
     state: present
         
-$ ansible-runner webserver.example.com tasks.yml -- -u root -k
+$ ansible-exec webserver.example.com tasks.yml -- -u root -k
 ```

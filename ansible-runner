@@ -11,7 +11,7 @@ import enum
 import yaml
 
 logging.basicConfig()
-_logger = logging.getLogger('ansible-runner')
+_logger = logging.getLogger('ansible-exec')
 
 LOG_LEVEL = {
     0: logging.ERROR,

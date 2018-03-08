@@ -6,6 +6,6 @@ install:
   - pip install ansible
 
 script:
-  - ./ansible-runner localhost test/tasks.yml -- -c local
-  - ./ansible-runner localhost test/role -- -c local
-  - ./ansible-runner localhost test/playbook.yml -- -c local
+  - ./ansible-exec localhost test/tasks.yml -- -c local
+  - ./ansible-exec localhost test/role -- -c local
+  - ./ansible-exec localhost test/playbook.yml -- -c local
